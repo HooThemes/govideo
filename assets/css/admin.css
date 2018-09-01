@@ -1,0 +1,11 @@
+.customize-control-kirki-radio-image label{
+	padding-right:10px;
+}
+.control-section .customize-control-kirki-radio-image input:checked + label img {
+    border: 1px solid #FD4239;
+}
+.customize-control input[type=iconpicker] {
+    width: 100%;
+    line-height: 18px;
+    margin: 0;
+}
