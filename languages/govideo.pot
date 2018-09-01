@@ -1,0 +1,1506 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GoVideo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-26 05:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: comments.php:12
+msgid " or "
+msgstr ""
+
+#. The field ID where the error occurs.
+#: inc/kirki-framework/core/class-kirki-field.php:554
+#: inc/kirki-framework/core/class-kirki-field.php:564
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#. %1$s represents the field ID where the error occurs.
+#: inc/kirki-framework/core/class-kirki-field.php:425
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/kirki-framework/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: inc/template-tags.php:17
+msgid "(Edit)"
+msgstr ""
+
+#: inc/customizer-options.php:703
+msgid "1 Column"
+msgstr ""
+
+#: inc/customizer-options.php:469 inc/customizer-options.php:484
+#: inc/customizer-options.php:492
+msgid "1, Widgets"
+msgstr ""
+
+#: inc/customizer-options.php:703
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer-options.php:470 inc/customizer-options.php:485
+#: inc/customizer-options.php:536
+msgid "2, Menu"
+msgstr ""
+
+#: inc/customizer-options.php:703
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer-options.php:471 inc/customizer-options.php:486
+#: inc/customizer-options.php:547
+msgid "3, Text"
+msgstr ""
+
+#: inc/customizer-options.php:703
+msgid "4 Columns"
+msgstr ""
+
+#: 404.php:34
+msgid "404 Nothing Found"
+msgstr ""
+
+#: inc/customizer-options.php:401
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer-options.php:409
+msgid "404 Page content"
+msgstr ""
+
+#: inc/customizer-options.php:565
+msgid "728x90 ad is recommended."
+msgstr ""
+
+#: inc/customizer-options.php:528
+msgid "== Select Menu =="
+msgstr ""
+
+#: inc/customizer-options.php:41
+msgid "==Select Category=="
+msgstr ""
+
+#: inc/theme-admin-page.php:25 inc/theme-admin-page.php:79
+msgid "About"
+msgstr ""
+
+#: inc/customizer-options.php:616 inc/customizer-options.php:623
+msgid "About Front Page Layout"
+msgstr ""
+
+#: inc/theme-admin-page.php:139
+msgid "Activate Plugin"
+msgstr ""
+
+#: inc/theme-admin-page.php:143
+msgid "Activate Required Plugin"
+msgstr ""
+
+#: inc/enqueue-scripts.php:121
+msgid "Activating Required Plugin "
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:420
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:424
+msgid "Add File"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:388
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:392
+msgid "Add Image"
+msgstr ""
+
+#. %s represents the label of the row.
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:87
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/widgets.php:42
+msgid "Add widgets here to appear beside featured main slider."
+msgstr ""
+
+#: inc/widgets.php:145 inc/widgets.php:156 inc/widgets.php:167
+#: inc/widgets.php:178
+msgid "Add widgets here to appear in your custom sidebar."
+msgstr ""
+
+#: inc/widgets.php:32
+msgid ""
+"Add widgets here to appear in your featured main slider unader header slider."
+msgstr ""
+
+#: inc/widgets.php:104 inc/widgets.php:114 inc/widgets.php:124
+#: inc/widgets.php:134
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: inc/widgets.php:22
+msgid "Add widgets here to appear in your header slider unader mian menu."
+msgstr ""
+
+#: inc/widgets.php:74
+msgid "Add widgets here to appear in your pages sidebar."
+msgstr ""
+
+#: inc/widgets.php:94
+msgid "Add widgets here to appear in your posts list sidebar."
+msgstr ""
+
+#: inc/widgets.php:11
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: inc/widgets.php:84
+msgid "Add widgets here to appear in your single post sidebar."
+msgstr ""
+
+#: inc/widgets.php:53
+msgid "Add widgets here to appear main content area."
+msgstr ""
+
+#: inc/widgets.php:63
+msgid "Add widgets here to appear sidebar area."
+msgstr ""
+
+#: inc/customizer-options.php:597
+msgid "Align Left"
+msgstr ""
+
+#: inc/customizer-options.php:598
+msgid "Align Right"
+msgstr ""
+
+#: inc/theme-admin-page.php:178
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/widgets.php:92
+msgid "Archives"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer-options.php:132
+msgid "Back to Top"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:85
+msgid "Backup Font"
+msgstr ""
+
+#: inc/customizer-options.php:923
+msgid "Base Colors"
+msgstr ""
+
+#: inc/customizer-options.php:1057
+msgid "Base Typorgraphy"
+msgstr ""
+
+#: inc/customizer-options.php:35
+msgid "Blank"
+msgstr ""
+
+#: inc/customizer-options.php:1065
+msgid "Body Typography"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:225
+msgid "Bold 700"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:226
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:215
+msgid "Book 300"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:216
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-spacing.php:34
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:131
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer-options.php:333
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer-options.php:323
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/customizer-options.php:343
+msgid "Button Border Style"
+msgstr ""
+
+#: inc/customizer-options.php:365
+msgid "Button Border Width"
+msgstr ""
+
+#: inc/customizer-options.php:307
+msgid "Button Broder Radius"
+msgstr ""
+
+#: inc/customizer-options.php:280
+msgid "Button Color"
+msgstr ""
+
+#: inc/customizer-options.php:381
+msgid "Button Padding"
+msgstr ""
+
+#: inc/customizer-options.php:290
+msgid "Button Text-transform"
+msgstr ""
+
+#: inc/customizer-options.php:259
+msgid "Buttons"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "By"
+msgstr ""
+
+#: inc/customizer-options.php:298
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:181
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer-options.php:893
+msgid "Category"
+msgstr ""
+
+#: inc/customizer-options.php:739
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:134
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:155
+msgid "Center"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:91
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:123
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:90
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Center"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:89
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Top"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:420
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:422
+msgid "Change File"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:388
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:390
+msgid "Change Image"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:42
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:50
+msgid "Change image"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:47
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:55
+msgid "Choose image"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:225
+msgid "Color"
+msgstr ""
+
+#: comments.php:24
+msgid "Comment pages"
+msgstr ""
+
+#. %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: inc/kirki-framework/core/class-kirki-field.php:257
+#: inc/kirki-framework/core/class-kirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer-options.php:1232
+msgid "Content"
+msgstr ""
+
+#: inc/customizer-options.php:801
+msgid "Copyright"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:137
+msgid "CSS Defaults"
+msgstr ""
+
+#: inc/widgets.php:143
+msgid "Custom Sidebar 1"
+msgstr ""
+
+#: inc/widgets.php:154
+msgid "Custom Sidebar 2"
+msgstr ""
+
+#: inc/widgets.php:165
+msgid "Custom Sidebar 3"
+msgstr ""
+
+#: inc/widgets.php:176
+msgid "Custom Sidebar 4"
+msgstr ""
+
+#: inc/theme-admin-page.php:180
+msgid "Customize"
+msgstr ""
+
+#: inc/kirki-framework/modules/custom-sections/sections/class-kirki-sections-nested-section.php:59
+msgid "Customizing"
+msgstr ""
+
+#. The title.
+#: inc/kirki-framework/modules/custom-sections/sections/class-kirki-sections-nested-section.php:62
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: inc/customizer-options.php:167 inc/customizer-options.php:353
+msgid "Dashed"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:43
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:133
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:51
+msgid "Default"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:138
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: inc/customizer-options.php:418 inc/customizer-options.php:426
+msgid "Default Featured Image"
+msgstr ""
+
+#: inc/customizer-options.php:901
+msgid "Default Thumbnail Zoom Icon"
+msgstr ""
+
+#: template-parts/footer/footer-bottom.php:19
+#, php-format
+msgid ""
+"Designed by <a href=\"%s\" target=\"_blank\">HooThemes</a>. All Rights "
+"Reserved."
+msgstr ""
+
+#: inc/customizer-options.php:826
+msgid "Display Author"
+msgstr ""
+
+#: inc/customizer-options.php:836
+msgid "Display Date"
+msgstr ""
+
+#: inc/customizer-options.php:771
+msgid "Display Footer Icons"
+msgstr ""
+
+#: inc/customizer-options.php:683
+msgid "Display Footer Widgets"
+msgstr ""
+
+#: inc/customizer-options.php:876
+msgid "Display Page Title"
+msgstr ""
+
+#: inc/customizer-options.php:866
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/customizer-options.php:584
+msgid "Display Search Icon"
+msgstr ""
+
+#: inc/customizer-options.php:856
+msgid "Display Tags"
+msgstr ""
+
+#: inc/customizer-options.php:453
+msgid "Display Top Bar"
+msgstr ""
+
+#: inc/customizer-options.php:846
+msgid "Display Visits"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-color.php:55
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]"
+"\" instead."
+msgstr ""
+
+#: inc/theme-admin-page.php:185 inc/theme-admin-page.php:188
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer-options.php:166 inc/customizer-options.php:352
+msgid "Dotted"
+msgstr ""
+
+#: inc/customizer-options.php:169 inc/customizer-options.php:355
+msgid "Double"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:98
+msgid "Download font-family to server instead of using the Google CDN."
+msgstr ""
+
+#: comments.php:76
+msgid "Email"
+msgstr ""
+
+#: inc/customizer-options.php:139
+msgid "Enable Scroll to Top Button"
+msgstr ""
+
+#. %1$s represents the field ID where the error occurs. %2%s is buttonset/image.
+#: inc/kirki-framework/field/class-kirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:227
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:228
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:229
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:80
+msgid "Font Family"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:124
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:106
+msgid "Font Size"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:127
+msgid "Font Style"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:125
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer-options.php:661 inc/customizer-options.php:789
+msgid "Font-awesome Icon."
+msgstr ""
+
+#: inc/widgets.php:102
+msgid "Footer 1"
+msgstr ""
+
+#: inc/widgets.php:112
+msgid "Footer 2"
+msgstr ""
+
+#: inc/widgets.php:122
+msgid "Footer 3"
+msgstr ""
+
+#: inc/widgets.php:132
+msgid "Footer 4"
+msgstr ""
+
+#: inc/customizer-options.php:779
+msgid "Footer Bottom Icons"
+msgstr ""
+
+#: inc/customizer-options.php:699
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/customizer-options.php:1431
+msgid "Footer Content"
+msgstr ""
+
+#: inc/customizer-options.php:1423
+msgid "Footer Info"
+msgstr ""
+
+#: inc/customizer-options.php:728 inc/customizer-options.php:1021
+msgid "Footer Info Area"
+msgstr ""
+
+#: inc/customizer-options.php:1028
+msgid "Footer Info Area Background"
+msgstr ""
+
+#: inc/customizer-options.php:745
+msgid "Footer Info Area Padding"
+msgstr ""
+
+#: inc/customizer-options.php:643
+msgid "Footer Top"
+msgstr ""
+
+#: inc/customizer-options.php:650
+msgid "Footer Top Icons"
+msgstr ""
+
+#: inc/customizer-options.php:995
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/customizer-options.php:1002
+msgid "Footer Widget Area Background"
+msgstr ""
+
+#: inc/customizer-options.php:676
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: inc/customizer-options.php:709
+msgid "Footer Widgets Area Padding"
+msgstr ""
+
+#: inc/customizer-options.php:205
+msgid "Form Background Color"
+msgstr ""
+
+#: inc/customizer-options.php:195
+msgid "Form Border Color"
+msgstr ""
+
+#: inc/customizer-options.php:157
+msgid "Form Border Style"
+msgstr ""
+
+#: inc/customizer-options.php:179
+msgid "Form Border Width"
+msgstr ""
+
+#: inc/customizer-options.php:221
+msgid "Form Broder Radius"
+msgstr ""
+
+#: inc/customizer-options.php:266
+msgid "Form Font Size"
+msgstr ""
+
+#: inc/customizer-options.php:239
+msgid "Form Padding"
+msgstr ""
+
+#: inc/customizer-options.php:150
+msgid "Forms"
+msgstr ""
+
+#. Name of the template
+msgid "Front-page Template"
+msgstr ""
+
+#: inc/customizer-options.php:691 inc/customizer-options.php:763
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:136
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/theme-admin-page.php:193
+msgid "Got theme support question?"
+msgstr ""
+
+#. Name of the theme
+msgid "GoVideo"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"GoVideo is a clean and free WordPress theme for "
+"Blog/Video/Photography/Magazine/Newspaper/News/ sites that that allows you "
+"create a homepage with customizer widgets in a few minutes. With the help of "
+"live customizer options and custom widgets, you can design your website as "
+"you like and preview the changes live. Based on Bootstrap and coded with "
+"HTML5 and CSS3 language, GoVideo WordPress theme is fully responsive in "
+"desktops and mobile devices, you can implement the layout as a personal blog,"
+" modern news journals, fashion magazine, travel blogging &amp; magazine, "
+"video, vibrant news sites and more. You can check the demo at: http://demo."
+"hoosoft.com/govideo/"
+msgstr ""
+
+#: inc/customizer-options.php:916
+msgid "GoVideo: Colors & Background"
+msgstr ""
+
+#: inc/customizer-options.php:635
+msgid "GoVideo: Footer Options"
+msgstr ""
+
+#: inc/customizer-options.php:608
+msgid "GoVideo: Front Page Layouts"
+msgstr ""
+
+#: inc/customizer-options.php:54
+msgid "GoVideo: General Options"
+msgstr ""
+
+#: inc/customizer-options.php:438
+msgid "GoVideo: Header Layouts"
+msgstr ""
+
+#: inc/customizer-options.php:812
+msgid "GoVideo: Posts Options"
+msgstr ""
+
+#: inc/customizer-options.php:1050
+msgid "GoVideo: Typography"
+msgstr ""
+
+#: inc/customizer-options.php:170 inc/customizer-options.php:356
+msgid "Groove"
+msgstr ""
+
+#: inc/customizer-options.php:1086
+msgid "H1"
+msgstr ""
+
+#: inc/customizer-options.php:1114
+msgid "H2"
+msgstr ""
+
+#: inc/customizer-options.php:1136
+msgid "H3"
+msgstr ""
+
+#: inc/customizer-options.php:1158
+msgid "H4"
+msgstr ""
+
+#: inc/customizer-options.php:1179
+msgid "H5"
+msgstr ""
+
+#: inc/customizer-options.php:1203
+msgid "H6"
+msgstr ""
+
+#: comments.php:11
+msgid "Has one comment"
+msgstr ""
+
+#: inc/customizer-options.php:564
+msgid "Header Advertisement"
+msgstr ""
+
+#: inc/customizer-options.php:68
+msgid "Header Slider Autoplay"
+msgstr ""
+
+#: inc/customizer-options.php:78
+msgid "Header Slider Autoplay Timeout"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:136
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:139
+msgid "Height"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:362
+msgid "Hex Value"
+msgstr ""
+
+#: inc/customizer-options.php:165 inc/customizer-options.php:351
+msgid "Hidden"
+msgstr ""
+
+#: inc/customizer-options.php:89
+msgid "Home page featured section slider."
+msgstr ""
+
+#: inc/theme-setup.php:99
+msgid "Hoo Companion"
+msgstr ""
+
+#. Author of the theme
+msgid "HooHhemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://hoothemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.hoothemes.com/themes/govideo.html"
+msgstr ""
+
+#: inc/customizer-options.php:657 inc/customizer-options.php:786
+msgid "Icon"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:143
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:185
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:201
+msgid "Inherit"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:184
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:200
+msgid "Initial"
+msgstr ""
+
+#: inc/customizer-options.php:739
+msgid "Inline"
+msgstr ""
+
+#: inc/customizer-options.php:172 inc/customizer-options.php:358
+msgid "Inset"
+msgstr ""
+
+#: inc/theme-admin-page.php:148
+msgid "Install Plugin"
+msgstr ""
+
+#: inc/theme-admin-page.php:152
+msgid "Install Required Plugin"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimension.php:39
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:140
+msgid "Invalid Value"
+msgstr ""
+
+#: 404.php:37
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: inc/theme-admin-page.php:140
+msgid "It needs to activate the Hoo Companion plugin."
+msgstr ""
+
+#: inc/theme-admin-page.php:149
+msgid "It needs to install the Hoo Companion plugin."
+msgstr ""
+
+#: template-parts/post/content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer-options.php:500
+msgid "Item"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:167
+msgid "Justify"
+msgstr ""
+
+#: inc/kirki-framework/core/class-kirki.php:228
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: inc/customizer-options.php:735
+msgid "Layout"
+msgstr ""
+
+#: comments.php:65
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:12
+msgid "leave a reply"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-spacing.php:35
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:149
+msgid "Left"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:85
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:117
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:84
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Center"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:83
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Top"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:128
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:122
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:213
+msgid "Light 200"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:214
+msgid "Light 200 Italic"
+msgstr ""
+
+#. %s represents the number of rows we're limiting the repeater to allow.
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:228
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:126
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:114
+msgid "Line Height"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:199
+msgid "Line-Through"
+msgstr ""
+
+#: inc/customizer-options.php:505 inc/customizer-options.php:663
+#: inc/customizer-options.php:791
+msgid "Link"
+msgstr ""
+
+#: inc/customizer-options.php:557
+msgid "Logo Bar"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:183
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer-options.php:300
+msgid "lowercase"
+msgstr ""
+
+#: inc/customizer-options.php:1307
+msgid "Main Menu"
+msgstr ""
+
+#: inc/customizer-options.php:88
+msgid "Main Slider Autoplay"
+msgstr ""
+
+#: inc/customizer-options.php:99
+msgid "Main Slider Autoplay Timeout"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:217
+msgid "Margin Bottom"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:209
+msgid "Margin Top"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:220
+msgid "Medium 500"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:221
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/customizer-options.php:593
+msgid "Menu Align"
+msgstr ""
+
+#: comments.php:68
+msgid "Message"
+msgstr ""
+
+#: template-parts/post/content.php:19
+msgid "MORE"
+msgstr ""
+
+#: comments.php:72
+msgid "Name"
+msgstr ""
+
+#: inc/customizer-options.php:577 inc/customizer-options.php:969
+#: inc/customizer-options.php:1253
+msgid "Navigation Bar"
+msgstr ""
+
+#: inc/customizer-options.php:976
+msgid "Navigation Bar Background Image"
+msgstr ""
+
+#: single.php:34 inc/template-tags.php:83
+msgid "Next page"
+msgstr ""
+
+#: comments.php:11
+msgid "No comment"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:59
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:131
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:409
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:414
+msgid "No File Selected"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:377
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:382
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:45
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:53
+msgid "No image selected"
+msgstr ""
+
+#: inc/theme-admin-page.php:40
+msgid "No plugin specified"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customizer-options.php:164 inc/customizer-options.php:297
+#: inc/customizer-options.php:350
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:180
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:196
+msgid "None"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:217
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:218
+msgid "Normal 400"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:219
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: template-parts/post/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-switch.php:43
+#: inc/kirki-framework/controls/php/class-kirki-control-switch.php:56
+msgid "Off"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-switch.php:42
+#: inc/kirki-framework/controls/php/class-kirki-control-switch.php:52
+msgid "On"
+msgstr ""
+
+#: inc/customizer-options.php:173 inc/customizer-options.php:359
+msgid "Outset"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:198
+msgid "Overline"
+msgstr ""
+
+#: single.php:35 inc/template-tags.php:84
+msgid "Page"
+msgstr ""
+
+#: inc/widgets.php:72
+msgid "Page Sidebar"
+msgstr ""
+
+#: template-parts/page/content-page.php:18
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-admin-page.php:194
+msgid "Please submit a topic in our dedicated support forum."
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-code.php:37
+msgid ""
+"Please update your WordPress installation to a version newer than 4.9 to "
+"access the code control."
+msgstr ""
+
+#: inc/theme-admin-page.php:186
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/theme-admin-page.php:61
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: inc/customizer-options.php:1454
+msgid "Post"
+msgstr ""
+
+#: inc/customizer-options.php:1462
+msgid "Post Box Title"
+msgstr ""
+
+#: inc/widgets.php:82
+msgid "Post Sidebar"
+msgstr ""
+
+#: single.php:33 inc/template-tags.php:82
+msgid "Previous page"
+msgstr ""
+
+#: inc/customizer-options.php:930
+msgid "Primary Color"
+msgstr ""
+
+#: template-parts/post/content-none.php:10
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer-options.php:886
+msgid "Related Post Type"
+msgstr ""
+
+#: single.php:68
+msgid "RELATED VIDEOS"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:44
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:62
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:132
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:52
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:387
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:455
+msgid "Remove"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-slider.php:65
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer-options.php:171 inc/customizer-options.php:357
+msgid "Ridge"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-spacing.php:36
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:161
+msgid "Right"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:88
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:120
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:87
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Center"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:86
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Top"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:78
+msgid "row"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: searchform.php:4 searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for"
+msgstr ""
+
+#: inc/widgets.php:40
+msgid "Section: Area Beside Featured Slider"
+msgstr ""
+
+#: inc/widgets.php:30
+msgid "Section: Featured Main Slider"
+msgstr ""
+
+#: inc/widgets.php:20
+msgid "Section: Header Slider"
+msgstr ""
+
+#: inc/widgets.php:61
+msgid "Section: Home Sidebar"
+msgstr ""
+
+#: inc/widgets.php:51
+msgid "Section: Main Content"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-repeater.php:122
+msgid "Select a Page"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-background.php:63
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:134
+msgid "Select File"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:81
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:86
+msgid "Select Font Family"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-image.php:41
+#: inc/kirki-framework/field/class-kirki-field-image.php:46
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:49
+#: inc/kirki-framework/controls/php/class-kirki-control-image.php:54
+msgid "Select image"
+msgstr ""
+
+#: inc/customizer-options.php:36
+msgid "Self"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:222
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:223
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:224
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/widgets.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer-options.php:819
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer-options.php:109
+msgid "Single Post Slider Autoplay"
+msgstr ""
+
+#: inc/customizer-options.php:120
+msgid "Single Post Slider Autoplay Timeout"
+msgstr ""
+
+#: inc/customizer-options.php:1485
+msgid "Single Post Title"
+msgstr ""
+
+#: inc/customizer-options.php:1286
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/customizer-options.php:1261
+msgid "Site Title"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:135
+msgid "Size"
+msgstr ""
+
+#: inc/customizer-options.php:61
+msgid "Slider Options"
+msgstr ""
+
+#: inc/customizer-options.php:168 inc/customizer-options.php:354
+msgid "Solid"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:137
+msgid "Spacing"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-base.php:135
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/customizer-options.php:1328
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/theme-admin-page.php:196
+msgid "Support"
+msgstr ""
+
+#: inc/customizer-options.php:894
+msgid "Tag"
+msgstr ""
+
+#: inc/customizer-options.php:506
+msgid "Target"
+msgstr ""
+
+#: inc/customizer-options.php:504
+msgid "Text"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:138
+msgid "Text Align"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:193
+msgid "Text Decoration"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:177
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer-options.php:627
+msgid ""
+"The Front Page Layout options will appear after the customize is loaded, "
+"please go back to the previous level and wait."
+msgstr ""
+
+#: inc/theme-admin-page.php:177
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/theme-admin-page.php:88
+msgid "Theme Info"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:12
+msgid "this post."
+msgstr ""
+
+#: inc/customizer-options.php:662 inc/customizer-options.php:790
+msgid "Title"
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/customizer-options.php:463
+msgid "Tobbar Left Content"
+msgstr ""
+
+#: inc/customizer-options.php:478
+msgid "Tobbar Right Content"
+msgstr ""
+
+#: inc/kirki-framework/field/class-kirki-field-spacing.php:33
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:130
+msgid "Top"
+msgstr ""
+
+#: inc/customizer-options.php:446 inc/customizer-options.php:942
+#: inc/customizer-options.php:1224
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer-options.php:949
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: inc/theme-setup.php:20
+msgid "Top Menu"
+msgstr ""
+
+#: comments.php:12
+msgid "Trackback"
+msgstr ""
+
+#. %1$s represents the field ID where the error occurs.
+#: inc/kirki-framework/core/class-kirki-field.php:407
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#. %s represents the field ID where the error occurs.
+#: inc/kirki-framework/core/class-kirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:230
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:231
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:232
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:210
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:211
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/kirki-framework/modules/webfonts/class-kirki-fonts.php:212
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:197
+msgid "Underline"
+msgstr ""
+
+#: inc/customizer-options.php:299
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:182
+msgid "Uppercase"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:91
+msgid "Variant"
+msgstr ""
+
+#: inc/theme-admin-page.php:90
+msgid "View Demo"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid "Visits"
+msgstr ""
+
+#: inc/kirki-framework/core/class-kirki-init.php:282
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: inc/customizer-options.php:1349
+msgid "Widget"
+msgstr ""
+
+#: inc/customizer-options.php:1378 inc/customizer-options.php:1400
+msgid "Widget Content"
+msgstr ""
+
+#: inc/customizer-options.php:1357
+msgid "Widget Title"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:138
+msgid "Width"
+msgstr ""
+
+#: inc/kirki-framework/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki-framework/controls/php/class-kirki-control-typography.php:130
+msgid "Word Spacing"
+msgstr ""
+
+#: comments.php:12
+msgid "You can "
+msgstr ""
+
+#: comments.php:52
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:63
+msgid "Your email address will not be published."
+msgstr ""
