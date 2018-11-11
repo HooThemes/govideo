@@ -132,7 +132,6 @@ function govideo_widgets_init() {
 		'name'          => esc_html__( 'Footer 4', 'govideo' ),
 		'id'            => 'footer-4',
 		'description'   => esc_html__( 'Add widgets here to appear in your footer.', 'govideo' ),
-
 		'before_widget' => '<div id="%1$s" class="widget-box %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2 class="widget-title footer-title">',
@@ -143,7 +142,6 @@ function govideo_widgets_init() {
 		'name'          => esc_html__( 'Custom Sidebar 1', 'govideo' ),
 		'id'            => 'custom-1',
 		'description'   => esc_html__( 'Add widgets here to appear in your custom sidebar.', 'govideo' ),
-
 		'before_widget' => '<div id="%1$s" class="widget widget-box %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<div class="heading"><h4 class="widget-title">',
@@ -154,7 +152,6 @@ function govideo_widgets_init() {
 		'name'          => esc_html__( 'Custom Sidebar 2', 'govideo' ),
 		'id'            => 'custom-2',
 		'description'   => esc_html__( 'Add widgets here to appear in your custom sidebar.', 'govideo' ),
-
 		'before_widget' => '<div id="%1$s" class="widget widget-box %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<div class="heading"><h4 class="widget-title">',
@@ -165,7 +162,6 @@ function govideo_widgets_init() {
 		'name'          => esc_html__( 'Custom Sidebar 3', 'govideo' ),
 		'id'            => 'custom-3',
 		'description'   => esc_html__( 'Add widgets here to appear in your custom sidebar.', 'govideo' ),
-
 		'before_widget' => '<div id="%1$s" class="widget widget-box %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<div class="heading"><h4 class="widget-title">',
@@ -176,7 +172,6 @@ function govideo_widgets_init() {
 		'name'          => esc_html__( 'Custom Sidebar 4', 'govideo' ),
 		'id'            => 'custom-4',
 		'description'   => esc_html__( 'Add widgets here to appear in your custom sidebar.', 'govideo' ),
-
 		'before_widget' => '<div id="%1$s" class="widget widget-box %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<div class="heading"><h4 class="widget-title">',

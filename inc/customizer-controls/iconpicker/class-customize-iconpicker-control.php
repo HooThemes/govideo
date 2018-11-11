@@ -21,25 +21,20 @@ if ( class_exists( 'WP_Customize_Control' ) && !class_exists('Hoo_Customize_Icon
 			<?php
 		}
 
-		/**
-		 * Enqueue required scripts and styles.
-		 */
-		public function enqueue() {
-			wp_enqueue_script( 'hoo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/fontawesome-iconpicker.min.js', array( 'jquery' ), '1.0.0', true );
-			wp_enqueue_script( 'hoo-iconpicker-control', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/iconpicker-control.js', array( 'jquery' ), '1.0.0', true );
-			wp_enqueue_style( 'hoo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/css/fontawesome-iconpicker.min.css' );
-			wp_enqueue_style( 'font-awesome', GOVIDEO_THEME_URI . 'assets/vendor/font-awesome/css/font-awesome.min.css' );
-		}
+
+	}
+	
+	function govideo_control_types($controls){
+		$controls['iconpicker'] = 'Hoo_Customize_Iconpicker_Control';
+		return $controls;
+	}
+	
+	function govideo_iconpicker_control( $wp_customize ){
+		// Register our custom control with Kirki
+		add_filter( 'kirki_control_types', 'govideo_control_types' );
 
 	}
 
-add_action( 'customize_register', function( $wp_customize ) {
-	// Register our custom control with Kirki
-	add_filter( 'kirki_control_types', function( $controls ) {
-		$controls['iconpicker'] = 'Hoo_Customize_Iconpicker_Control';
-		return $controls;
-	} );
-
-} );
+	add_action( 'customize_register', 'govideo_iconpicker_control' );
 
 }

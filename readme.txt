@@ -1,8 +1,11 @@
 === GoVideo ===
-Contributors: HooThemes
+
+Contributors: hoosoft
 Requires at least: WordPress 4.8
 Tested up to: WordPress 5.0-trunk
-Version: 1.1
+Version: 1.7
+Requires PHP: 5.4
+Stable tag: 4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, photography, holiday, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, custom-colors, featured-images, custom-header, translation-ready, theme-options, threaded-comments, footer-widgets
@@ -61,33 +64,26 @@ no-image.png, Copyright (c) HooThemes.com
 Licenses: CC0 License
 Source: https://www.hoothemes.com
 
-screenshot.jpg, all demo images
+screenshot.jpg
 License: CC0 License
-Source: https://www.pexels.com
+Source: https://pixabay.com
 
-https://www.pexels.com/photo/adult-arm-art-326559
-https://www.pexels.com/photo/advertisement-bargain-boutique-1086711
-https://www.pexels.com/photo/aerial-aerial-view-aeroplane-59519
-https://www.pexels.com/photo/aeroplane-air-air-travel-723240
-https://www.pexels.com/photo/affair-anniversary-asad-1024992
-https://www.pexels.com/photo/architecture-blue-sky-cliff-248771
-https://www.pexels.com/photo/artist-guitar-guitarist-33597
-https://www.pexels.com/photo/artist-guitar-guitarist-89909
-https://www.pexels.com/photo/background-beach-blue-sky-1007657
-https://www.pexels.com/photo/backpack-bag-blur-346768
-https://www.pexels.com/photo/back-view-backlit-clouds-847484
-https://www.pexels.com/photo/back-view-clouds-cloudy-458555
-https://www.pexels.com/photo/beach-boardwalk-boat-132037
-https://www.pexels.com/photo/beach-clouds-couple-674671
-https://www.pexels.com/photo/beach-daylight-geology-221433
-https://www.pexels.com/photo/beautiful-beauty-close-up-255332
-https://www.pexels.com/photo/blur-carefree-couple-289237
-https://www.pexels.com/photo/close-up-fashion-female-373945
-https://www.pexels.com/photo/couple-hand-sign-hands-41073
+https://pixabay.com/en/guitar-country-girl-music-1139397/
+https://pixabay.com/en/meditation-listening-music-3715976/
+https://pixabay.com/en/couple-kissing-lying-relaxing-1612679/
+https://pixabay.com/en/hands-love-couple-together-fingers-437968/
+https://pixabay.com/en/boat-sundown-sunset-sky-clouds-164989/
+https://pixabay.com/en/sea-bay-waterfront-beach-nice-418742/
+https://pixabay.com/en/plane-trip-journey-explore-841441/
+https://pixabay.com/en/maldives-tropics-tropical-1993704/
+https://pixabay.com/en/jetty-pier-sea-sunset-dusk-dawn-593401/
+https://pixabay.com/en/accessories-beach-blue-feminine-84528/
+https://pixabay.com/en/woman-shopping-lifestyle-beautiful-3040029/
 
 
 == Changelog ==
 
-* Fixed Top Bar width issue
-
-= 1.1 =
+= 1.7 =
+* Fixed: Padding issue
+* Fixed: Slider loading issue
+* Added: "Logo Right Text" options

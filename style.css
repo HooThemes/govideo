@@ -1,15 +1,15 @@
 /*
 Theme Name: GoVideo
-Theme URI: https://www.hoothemes.com/themes/govideo.html
+Theme URI: https://hoothemes.com/themes/govideo.html
 Author: HooHhemes
 Author URI: https://hoothemes.com/
 Description: GoVideo is a clean and free WordPress theme for Blog/Video/Photography/Magazine/Newspaper/News/ sites that that allows you create a homepage with customizer widgets in a few minutes. With the help of live customizer options and custom widgets, you can design your website as you like and preview the changes live. Based on Bootstrap and coded with HTML5 and CSS3 language, GoVideo WordPress theme is fully responsive in desktops and mobile devices, you can implement the layout as a personal blog, modern news journals, fashion magazine, travel blogging & magazine, video, vibrant news sites and more. You can check the demo at: http://demo.hoosoft.com/govideo/
 
-Version: 1.1
+Version: 1.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: govideo
-Tags: news, photography, holiday, one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, custom-colors, featured-images, custom-header, translation-ready, theme-options, threaded-comments, footer-widgets
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, custom-logo, custom-colors, featured-images, custom-header, translation-ready, theme-options, threaded-comments, footer-widgets
 
 GoVideo WordPress Theme has been created by Hoothemes.com, Copyright 2018 Hoothemes.com
 GoVideo WordPress theme is released under the terms of GNU GPL.
@@ -1049,6 +1049,9 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
 }
 .promotion-section{
 	float:right;
+}
+.promotion-section p{
+	margin-bottom:0;
 }
 .govideo-f-microwidgets {
     margin: 0 -10px;
@@ -2364,6 +2367,7 @@ li.tweets_govideor {
 
 .comment {
 	font-size: 13px;
+	padding-bottom: 20px;
 }
 
 .comment h3 {

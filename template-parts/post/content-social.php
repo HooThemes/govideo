@@ -6,7 +6,10 @@
 ?>
 <div class="share">
   <div class="list-inline center">
-  <?php echo apply_filters( 'hoo_social_share', do_shortcode(wp_kses_post($hoo_social_share)) );?>
+  <?php
+  $hoo_social_share = apply_filters( 'hoo_social_share', $hoo_social_share );
+  echo do_shortcode(wp_kses_post($hoo_social_share));
+  ?>
   </div>
 </div>
 <div class="line"></div>

@@ -99,7 +99,7 @@ function govideo_get_post_attributes(){
 	$post_zoom_icon = get_post_meta( get_the_ID(), 'hoo_post_zoom_icon', true );
 	
 	if( $post_zoom_icon == '' ){
-		$format = get_post_format() ? : 'standard';
+		$format = get_post_format() ? get_post_format(): 'standard';
 		switch($format){
 			case "video":
 				$post_zoom_icon = 'play-circle-o';
@@ -229,3 +229,17 @@ function govideo_get_featured_image(){
 	}
 	
 add_filter( 'hoo_default_featured_image', 'govideo_get_featured_image' );
+
+ /**
+ * Out put logo right text
+ */
+function govideo_logo_right(){
+	
+	$logo_area_text =  govideo_option( 'logo_area_text' );
+	if( $logo_area_text != '' )
+		echo wp_kses_post($logo_area_text);
+	
+	}
+	
+add_action( 'govideo_logo_right', 'govideo_logo_right' );
+

@@ -19,10 +19,7 @@ function govideo_scripts() {
 
 	wp_enqueue_script( 'bootstrap', GOVIDEO_THEME_URI . 'assets/vendor/bootstrap/js/bootstrap.min.js' , array( 'jquery' ), null, false);
 	wp_enqueue_script( 'owl-carousel', GOVIDEO_THEME_URI . 'assets/vendor/owl-carousel/owl.carousel.min.js' , array( 'jquery' ), null, false);
-	wp_enqueue_script( 'imagesloaded-pkgd', GOVIDEO_THEME_URI . 'assets/vendor/imagesloaded/imagesloaded.pkgd.js' , array( 'jquery' ), null, false);
 	
-	wp_enqueue_script( 'imagesloaded-pkgd', GOVIDEO_THEME_URI . 'assets/vendor/imagesloaded/imagesloaded.pkgd.js' , array( 'jquery' ), null, false);
-		
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -35,7 +32,7 @@ function govideo_scripts() {
 	$post_slider_autoplay = govideo_option('post_slider_autoplay');
 	$main_slider_timeout = govideo_option('main_slider_timeout');
 	
-	wp_enqueue_script( 'govideo-main', GOVIDEO_THEME_URI . 'assets/js/main.js' , array( 'jquery', 'owl-carousel' ), GOVIDEO_VERSION, false);
+	wp_enqueue_script( 'govideo-main', GOVIDEO_THEME_URI . 'assets/js/main.js' , array( 'jquery', 'owl-carousel','imagesloaded' ), GOVIDEO_VERSION, false);
 	wp_localize_script( 'govideo-main', 'govideo_params', array(
 		'ajaxurl'  => admin_url('admin-ajax.php'),
 		'themeurl' => get_template_directory_uri(),
@@ -99,28 +96,31 @@ add_action( 'wp_enqueue_scripts', 'govideo_scripts' );
 
 function govideo_admin_scripts(){
 	global $pagenow;
-	wp_enqueue_script( 'govideo-admin', GOVIDEO_THEME_URI.'assets/js/admin.js', array( 'jquery' ), '', true );
-	wp_enqueue_style( 'govideo-admin', GOVIDEO_THEME_URI . 'assets/css/admin.css', '', '', false );
-	
-	wp_enqueue_script( 'govideo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/fontawesome-iconpicker.min.js', array( 'jquery' ), '1.0.0', true );
-	wp_enqueue_script( 'govideo-iconpicker-control', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/iconpicker-control.js', array( 'jquery' ), '1.0.0', true );
-	wp_enqueue_style( 'govideo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/css/fontawesome-iconpicker.min.css' );
-	wp_enqueue_style( 'font-awesome', GOVIDEO_THEME_URI . 'assets/vendor/font-awesome/css/font-awesome.min.css' );
-	
-	
 	
 	if( isset($_GET['page']) && $_GET['page'] == 'govideo-welcome'){
 		wp_enqueue_script( 'govideo-admin-menu-settings', GOVIDEO_THEME_URI.'assets/js/admin-menu-settings.js', array( 'jquery', 'wp-util', 'updates' ), '', true );
-		}
-	
-	wp_localize_script( 'govideo-admin', 'govideo_admin', array(
-			'ajaxurl' => admin_url('admin-ajax.php'),
-		)  );
-		
-	wp_localize_script( 'govideo-admin-menu-settings', 'govideo', array(
+		wp_localize_script( 'govideo-admin-menu-settings', 'govideo', array(
 			'btnActivating' => esc_html__( 'Activating Required Plugin ', 'govideo' ) . '&hellip;',
 			'ajaxurl' => admin_url('admin-ajax.php'),
 		)  );
 		
+		}
+	
+
 	}
 add_action( 'admin_enqueue_scripts', 'govideo_admin_scripts' );
+
+
+function govideo_customize_controls(){
+	
+	wp_enqueue_style( 'govideo-admin', GOVIDEO_THEME_URI . 'assets/css/admin.css', '', '', false );
+			
+	wp_enqueue_script( 'govideo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/fontawesome-iconpicker.min.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_script( 'govideo-iconpicker-control', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/js/iconpicker-control.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_style( 'govideo-fontawesome-iconpicker', GOVIDEO_THEME_URI . 'inc/customizer-controls/iconpicker/assets/css/fontawesome-iconpicker.min.css' );
+	wp_enqueue_style( 'font-awesome', GOVIDEO_THEME_URI . 'assets/vendor/font-awesome/css/font-awesome.min.css' );
+	wp_localize_script( 'govideo-admin', 'govideo_admin', array(
+				'ajaxurl' => admin_url('admin-ajax.php'),
+			)  );
+	}
+add_action( 'customize_controls_enqueue_scripts', 'govideo_customize_controls' );

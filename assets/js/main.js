@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
 	
 	$('#header-slider').imagesLoaded(function () {
+		$('#header-slider').removeClass('hide');
 		$("#header-slider").owlCarousel({
 
 			autoplay: govideo_params.sliderOptions.header_slider_autoplay,

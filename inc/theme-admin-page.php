@@ -85,7 +85,7 @@ if ( ! class_exists( 'GoVideo_Admin' ) ) :
 			</div>
 
 			<p class="govideo-actions">
-				<a href="<?php echo esc_url( 'https://www.hoothemes.com/themes/govideo.html' ); ?>" class="button button-secondary" target="_blank"><?php esc_html_e( 'Theme Info', 'govideo' ); ?></a>
+				<a href="<?php echo esc_url( 'https://hoothemes.com/themes/govideo.html' ); ?>" class="button button-secondary" target="_blank"><?php esc_html_e( 'Theme Info', 'govideo' ); ?></a>
 
 				<a href="<?php echo esc_url( apply_filters( 'govideo_pro_theme_url', 'http://demo.hoosoft.com/govideo/' ) ); ?>" class="button button-secondary docs" target="_blank"><?php esc_html_e( 'View Demo', 'govideo' ); ?></a>
 				
@@ -106,6 +106,7 @@ if ( ! class_exists( 'GoVideo_Admin' ) ) :
 		 * Welcome screen page.
 		 */
 		public function welcome_screen() {
+			
 			$current_tab = empty( $_GET['tab'] ) ? 'about' : sanitize_title( $_GET['tab'] );
 
 			// Look for a {$current_tab}_screen method.
@@ -137,19 +138,19 @@ if ( ! class_exists( 'GoVideo_Admin' ) ) :
 						if ( file_exists( WP_PLUGIN_DIR . '/hoo-companion/hoo-companion.php' ) && is_plugin_inactive( 'hoo-companion/hoo-companion.php' ) ) {
 							
 							echo '<h3>'.esc_html__( 'Activate Plugin', 'govideo' ).'</h3>
-							<p>'.esc_html__( 'It needs to activate the Hoo Companion plugin.', 'govideo' ).'</p>';
+							<p>'.esc_html__( 'It is recommended to activate the Hoo Companion plugin.', 'govideo' ).'</p>';
 
 							$class       = 'button button-primary hoo-companion-inactive';
-							$button_text = esc_html__( 'Activate Required Plugin', 'govideo' );
+							$button_text = esc_html__( 'Activate Recommended Plugin', 'govideo' );
 							$data_slug   = 'hoo-companion';
 							$data_init   = '/hoo-companion/hoo-companion.php';
 
 						} elseif ( ! file_exists( WP_PLUGIN_DIR . '/hoo-companion/hoo-companion.php' ) ) {
 							echo '<h3>'.esc_html__( 'Install Plugin', 'govideo' ).'</h3>
-							<p>'.esc_html__( 'It needs to install the Hoo Companion plugin.', 'govideo' ).'</p>';
+							<p>'.esc_html__( 'It is recommended to install the Hoo Companion plugin.', 'govideo' ).'</p>';
 							
 							$class       = 'button button-primary hoo-companion-notinstalled';
-							$button_text = esc_html__( 'Install Required Plugin', 'govideo' );
+							$button_text = esc_html__( 'Install Recommended Plugin', 'govideo' );
 							$data_slug   = 'hoo-companion';
 							$data_init   = '/hoo-companion/hoo-companion.php';
 
@@ -185,7 +186,7 @@ if ( ! class_exists( 'GoVideo_Admin' ) ) :
 							<h3><?php esc_html_e( 'Documentation', 'govideo' ); ?></h3>
 							<p><?php esc_html_e( 'Please view our documentation page to setup the theme.', 'govideo' ) ?></p>
 							<p>
-								<a href="<?php echo esc_url( 'https://www.hoothemes.com/govideo-theme-documentation.html' ); ?>" target="_blank" class="button button-secondary"><?php esc_html_e( 'Documentation', 'govideo' ); ?></a>
+								<a href="<?php echo esc_url( 'https://hoothemes.com/govideo-theme-documentation.html' ); ?>" target="_blank" class="button button-secondary"><?php esc_html_e( 'Documentation', 'govideo' ); ?></a>
 							</p>
 						</div>
 
@@ -193,16 +194,12 @@ if ( ! class_exists( 'GoVideo_Admin' ) ) :
 							<h3><?php esc_html_e( 'Got theme support question?', 'govideo' ); ?></h3>
 							<p><?php esc_html_e( 'Please submit a topic in our dedicated support forum.', 'govideo' ) ?></p>
 							<p>
-								<a href="<?php echo esc_url( 'https://www.hoothemes.com/forums/govideo-theme/' ); ?>" target="_blank" class="button button-secondary"><?php esc_html_e( 'Support', 'govideo' ); ?></a>
+								<a href="<?php echo esc_url( 'https://hoothemes.com/forums/govideo-theme/' ); ?>" target="_blank" class="button button-secondary"><?php esc_html_e( 'Support', 'govideo' ); ?></a>
 							</p>
 						</div>
-
-		
 						
 					</div>
-				</div>
-
-				
+				</div>				
 			</div>
 			<?php
 		}

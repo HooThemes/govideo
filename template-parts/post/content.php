@@ -6,7 +6,7 @@
 	?>
   <div class="wrap-vid">
     <div class="zoom-container">
-      <div class="zoom-caption"> <span><?php echo esc_attr($first_tag); ?></span> <a href="<?php the_permalink(); ?>"> <?php echo govideo_get_zoom_icon('', 3);?> </a>
+      <div class="zoom-caption"> <span><?php echo esc_html($first_tag); ?></span> <a href="<?php the_permalink(); ?>"> <?php echo govideo_get_zoom_icon('', 3);?> </a>
         <p>
           <?php the_title(); ?>
         </p>
@@ -16,7 +16,7 @@
     <div class="description">
       <?php the_excerpt(); ?>
       <a class="read-more" href="<?php the_permalink(); ?>">
-      <?php  _e( 'MORE', 'govideo' )?>
+      <?php  esc_html_e( 'MORE', 'govideo' )?>
       ...</a> </div>
   </div>
 </article>

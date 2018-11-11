@@ -22,8 +22,7 @@
 
           <div class="promotion-section">
 		  <?php 
-		  $header_ad = govideo_option('header_ad');
-		  echo do_shortcode(wp_kses_post($header_ad));
+		  do_action('govideo_logo_right');
 		  ?>
           </div>
 

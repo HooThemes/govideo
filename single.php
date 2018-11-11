@@ -10,7 +10,7 @@
                 
 					<?php
                     
-                    $format = get_post_format() ? : 'standard';
+                    $format = get_post_format() ? get_post_format(): 'standard';
                     get_template_part( 'template-parts/formats/format', $format );
                     get_template_part( 'template-parts/post/content', 'social' );
                     ?>

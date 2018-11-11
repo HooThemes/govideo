@@ -14,18 +14,18 @@
     <div class="row">
       <div id="main-content" class="col-md-8">
         <?php
-			if ( is_active_sidebar( 'hoo-main-section' ) ) {
+			//if ( is_active_sidebar( 'hoo-main-section' ) ) {
 				if ( ! dynamic_sidebar( 'hoo-main-section' ) ):
 						endif;
-			}
+			//}
 		?>
       </div>
       <div id="sidebar" class="col-md-4">
         <?php
-			if ( is_active_sidebar( 'hoo-sidebar-home' ) ) {
+			//if ( is_active_sidebar( 'hoo-sidebar-home' ) ) {
 				if ( ! dynamic_sidebar( 'hoo-sidebar-home' ) ):
 					endif;
-			}
+			//}
 		?>
       </div>
     </div>

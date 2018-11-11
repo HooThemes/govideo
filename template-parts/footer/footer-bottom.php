@@ -16,7 +16,7 @@
   <div class="<?php echo esc_attr($container); ?>">
   <?php do_action( 'hoo_before_footer_bottom' );?>
     <div class="row">
-      <div class="col-md-6 col-sm-6 copyright"> <span><?php echo do_shortcode(wp_kses_post($copyright));?> </span> <?php printf( __('Designed by <a href="%s" target="_blank">HooThemes</a>. All Rights Reserved.', 'govideo'), esc_url('https://www.hoothemes.com'));?></div>
+      <div class="col-md-6 col-sm-6 copyright"> <span><?php echo do_shortcode(wp_kses_post($copyright));?> </span> <?php printf( __('Designed by <a href="%s" target="_blank">HooThemes</a>. All Rights Reserved.', 'govideo'), esc_url('https://hoothemes.com'));?></div>
       <div class="col-md-6 col-sm-6 link">
         <div class="menu-footer-menu-container">
           <ul id="menu-footer-menu" class="menu list-inline">
@@ -24,7 +24,7 @@
 	  if($footer_bottom_icons){
 		  foreach ($footer_bottom_icons as $item ){
 		  ?>
-		  <li><a href="<?php echo esc_url($item['link']);?>" title="<?php echo esc_attr($item['title']);?>" target="_blank"><i class="fa <?php echo esc_attr($item['icon']);?>"></i> <?php echo esc_attr($item['title']);?></a></li>
+		  <li><a href="<?php echo esc_url($item['link']);?>" title="<?php echo esc_attr($item['title']);?>" target="_blank"><i class="fa <?php echo esc_attr($item['icon']);?>"></i> <?php echo esc_html($item['title']);?></a></li>
 		  <?php 
 		  }
 	  }

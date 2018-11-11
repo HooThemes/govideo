@@ -507,17 +507,17 @@ function govideo_customizer_library_options() {
 		),
 		'default' =>  array(
 			array(
-				"text" => "<i class='fa fa-user'></i> admin@domain.com",
+				"text" => __( "<i class='fa fa-user'></i> support@example.com", 'govideo' ),
 				"link" => "",
 				"target" => "_self",
 				),
 			array(
-				"text" => "<i class='fa fa-phone'></i> 011 322 44 56",
+				"text" => __( "<i class='fa fa-phone'></i> 011 322 44 56", 'govideo' ),
 				"link" => "",
 				"target" => "_self",
 				),
 			array(
-				"text" => "<i class='fa fa-calendar'></i> Monday - Friday 10 AM - 8 PM",
+				"text" => __( "<i class='fa fa-calendar'></i> Monday - Friday 10 AM - 8 PM", 'govideo' ),
 				"link" => "",
 				"target" => "_self",
 				),
@@ -554,27 +554,27 @@ function govideo_customizer_library_options() {
 
 	$sections[] = array(
 		'settings' => $section,
-		'title' => __( 'Logo Bar', 'govideo' ),
+		'title' => __( 'Logo Section', 'govideo' ),
 		'priority' => '2',
 		'panel' => $panel
 	);
 	
-	$options['header_ad'] = array(
-			'settings' => 'header_ad',
-			'label'   => __( 'Header Advertisement', 'govideo' ),
-			'description'   => __( '728x90 ad is recommended.', 'govideo' ),
+	$options['logo_area_text'] = array(
+			'settings' => 'logo_area_text',
+			'label'   => __( 'Logo Right Text', 'govideo' ),
+			'description'   => __( '728 x 90 image is recommended.', 'govideo' ),
 			'section' => $section,
-			'type'    => 'textarea',
+			'type'    => 'editor',
 			'default' => '',
 			'transport' => $transport,
 			
 		);
-				
+	
 	$section = 'section-navigation-bar';
 
 	$sections[] = array(
 		'settings' => $section,
-		'title' => __( 'Navigation Bar', 'govideo' ),
+		'title' => __( 'Main Menu', 'govideo' ),
 		'priority' => '2',
 		'panel' => $panel
 	);
@@ -624,7 +624,7 @@ function govideo_customizer_library_options() {
 		'section' => $section,
 		'type'    => 'custom',
 		'transport' => $transport,
-		'default' =>  __( 'The Front Page Layout options will appear after the customize is loaded, please go back to the previous level and wait.', 'govideo' ),
+		'default' =>  sprintf(__( "<h3>Plugins Recommended for Frontpage</h3><ul><li>Hoo Companion ( Provide frontpage widgets )</li><li>BJ Lazy Load ( Lazy loading images )</li></ul><h3>Frontpage Setup</h3> Step 1: Add a new page, select template <strong>Front-page Template</strong>, then publish.<br/><br/>Step 2: Go to Settings > Reading > Your homepage displays, checked <strong>A static page (select below)</strong>, then select the page created in step 1 for Homepage, save changes.<br/><br/> Step 3: Go to Appearance > Customize > <strong>GoVideo: Front Page Layouts</strong> to add widgets for frontpage sections. <br/><br/> <a href='%s' target='_blank'> Theme Documentation</a>", 'govideo' ), esc_url('https://hoothemes.com/govideo-theme-documentation.html')),
 		);
 	// Panel Footer
 	

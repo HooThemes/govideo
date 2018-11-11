@@ -55,9 +55,9 @@ function govideo_get_topbar_content( $type = '' ){
 					
 					$html .= '<span class="govideo-microwidget">';
 					if( $item['link'] != '' ){
-						$html .= '<a href="'.esc_url($item['link']).'" target="'.esc_attr($item['target']).'">'.$text.'</a>';
+						$html .= '<a href="'.esc_url($item['link']).'" target="'.esc_attr($item['target']).'">'.wp_kses_post($text).'</a>';
 					}else{
-						$html .= $text;
+						$html .= wp_kses_post($text);
 						}
 					$html .= '</span>';
 				endforeach;
@@ -177,3 +177,18 @@ function govideo_get_first_tag( $postid ){
 		 	$first_tag = esc_attr($post_tags[0]->name);
 		return $first_tag;
 	}
+
+/**
+ * Move sidebars to front page layout panel
+ */
+function govideo_move_widget_area($section_args, $section_id, $sidebar_id) {
+	
+	$sections = array( 'hoo-header-slider','hoo-featured-slider', 'hoo-beside-featured-slider', 'hoo-main-section', 'hoo-sidebar-home' );
+    if(  in_array($sidebar_id, $sections ) ) {
+        $section_args['panel'] = 'panel-front-page-layout';
+    }
+
+    return $section_args;
+}
+
+add_filter('customizer_widgets_section_args', 'govideo_move_widget_area', 10, 3);

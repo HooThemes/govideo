@@ -1,5 +1,5 @@
 <?php
-define( 'GOVIDEO_VERSION', '1.0.0' );
+define( 'GOVIDEO_VERSION', '1.6' );
 define( 'GOVIDEO_TEXTDOMAIN', 'govideo' );
 define( 'GOVIDEO_THEME_DIR', get_template_directory() . '/' );
 define( 'GOVIDEO_THEME_URI', get_template_directory_uri() . '/' );
